@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test bootstrap page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/fontello.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-white">This is the header</h1>
+                    <div class="play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="triangle"></div>
+                    </div>
+                    <a href="#footer" class="btn btn-lg text-uppercase btn-mystyle">This is the button</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-5">Lorem ipsum dolor sit.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-list-numbered"></i></div>
+                    <h5 class="text-center">Lorem, ipsum.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-heart"></i></div>
+                    <h5 class="text-center">Lorem, ipsum dolor.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-help"></i></div>
+                    <h5 class="text-center">Lorem.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-group"></i></div>
+                    <h5 class="text-center">Lorem, ipsum.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-phone"></i></div>
+                    <h5 class="text-center">Lorem, ipsum dolor.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-code"></i></div>
+                    <h5 class="text-center">Lorem.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-instagram"></i></div>
+                    <h5 class="text-center">Lorem, ipsum.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-chart-line"></i></div>
+                    <h5 class="text-center">Lorem, ipsum dolor.</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="my-circle"><i class="icon-mail-alt"></i></div>
+                    <h5 class="text-center">Lorem.</h5>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="forwhom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit consectetur.
+                    </h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn btn-lg text-uppercase btn-mystyle" href="#footer">Lorem.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-3">Lorem ipsum dolor sit.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- first row -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Lorem, ipsum dolor.</h4>
+                    <!--first accordeon  -->
+                    <div class="accordion accordion-flush" id="accordion1">
+                        <!-- open element -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    Accordion Item #1 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                                data-bs-parent="#accordion1">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                        <!-- closed element -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Accordion Item #2 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                data-bs-parent="#accordion1">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Accordion Item #3 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordion1">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Accordion Item #4 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                data-bs-parent="#accordion1">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Accordion Item #5 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                data-bs-parent="#accordion1">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2accordeon -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Lorem, ipsum dolor2.</h4>
+                    <div class="accordion accordion-flush" id="accordion2">
+                        <!-- open element -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1-acc2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1-acc2" aria-expanded="false"
+                                    aria-controls="collapse1-acc2">
+                                    Accordion Item #1 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse1-acc2" class="accordion-collapse collapse show"
+                                aria-labelledby="heading1-acc2" data-bs-parent="#accordion2">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                        <!-- closed element -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2-acc2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2-acc2" aria-expanded="false"
+                                    aria-controls="collapse2-acc2">
+                                    Accordion Item #2 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse2-acc2" class="accordion-collapse collapse" aria-labelledby="heading2-acc2"
+                                data-bs-parent="#accordion2">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--3 accordeon  -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Lorem, ipsum dolor3.</h4>
+                    <div class="accordion accordion-flush" id="accordion3">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1-acc3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1-acc3" aria-expanded="false"
+                                    aria-controls="collapse1-acc3">
+                                    Accordion Item #1 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse1-acc3" class="accordion-collapse collapse" aria-labelledby="heading1-acc3"
+                                data-bs-parent="#accordion3">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                        <!-- closed element -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2-acc3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2-acc3" aria-expanded="false"
+                                    aria-controls="collapse2-acc3">
+                                    Accordion Item #2 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse2-acc3" class="accordion-collapse collapse" aria-labelledby="heading2-acc3"
+                                data-bs-parent="#accordion3">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3-acc3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3-acc3" aria-expanded="false"
+                                    aria-controls="collapse3-acc3">
+                                    Accordion Item #3 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse3-acc3" class="accordion-collapse collapse" aria-labelledby="heading3-acc3"
+                                data-bs-parent="#accordion3">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading4-acc3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4-acc3" aria-expanded="false"
+                                    aria-controls="collapse4-acc3">
+                                    Accordion Item #4 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse4-acc3" class="accordion-collapse collapse show"
+                                aria-labelledby="heading4-acc3" data-bs-parent="#accordion3">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse5-acc3" aria-expanded="false"
+                                    aria-controls="collapse5-acc3">
+                                    Accordion Item #5 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse5-acc3" class="accordion-collapse collapse" aria-labelledby="heading5-acc3"
+                                data-bs-parent="#accordion3">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse6-acc3" aria-expanded="false"
+                                    aria-controls="collapse6-acc3">
+                                    Accordion Item #6 Lorem.
+                                </button>
+                            </h2>
+                            <div id="collapse6-acc3" class="accordion-collapse collapse" aria-labelledby="heading6-acc3"
+                                data-bs-parent="#accordion3">
+                                <div class="accordion-body fst-italic"> Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Iure beatae, ratione, deleniti, omnis excepturi error quisquam sapiente dolorem
+                                    quasi aliquam ipsam vero quidem cupiditate. Est debitis modi voluptatum consectetur
+                                    ipsum!<code>.accordion-flush</code> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="learning">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-9 col-sm-12">
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis est culpa itaque cum beatae laudantium eligendi? Doloremque libero distinctio odio dignissimos, error molestiae omnis suscipit ducimus minima natus nostrum?</h5>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis est culpa itaque cum beatae laudantium eligendi? Doloremque libero distinctio odio dignissimos, error molestiae omnis suscipit ducimus minima <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">natus</a> nostrum?</h5>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis est culpa itaque cum beatae laudantium eligendi? Doloremque libero distinctio odio dignissimos, error molestiae omnis suscipit ducimus minima natus nostrum?</h5>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis est culpa itaque cum beatae laudantium eligendi? Doloremque libero distinctio odio dignissimos, error molestiae omnis suscipit ducimus minima natus nostrum?</h5>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis est culpa itaque cum beatae laudantium eligendi? Doloremque libero distinctio odio dignissimos, error molestiae omnis suscipit ducimus minima natus nostrum?</h5>
+                </div>
+                <div class="col-lg-3 colsm-12 mb-sm-5 mt-sm-5 text-center">
+                    <img class="img-fluid" src="img/Cat_November_2010-1a.jpg.webp" alt="cat">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn btn-lg text-uppercase btn-mystyle" href="#footer">Lorem.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="author">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-5">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-9 col-lg-12">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta illum perferendis maxime repellendus, at optio nisi voluptatum eligendi molestiae rerum assumenda aspernatur quidem accusamus? Cum expedita sequi laborum at officiis.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, doloribus perspiciatis aperiam in totam accusantium illo quaerat autem praesentium amet a ab quod labore numquam facere est inventore nam voluptas?
+                    Optio consequuntur praesentium corporis dolores sequi odio quo officiis aliquid doloribus, sint quia a ab itaque. Temporibus ut nobis modi pariatur officia natus, eos, magnam totam minus suscipit sapiente atque?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis aut provident repellat nemo iure porro. Repellendus odit, commodi perspiciatis ab illo maiores vitae sequi, eum ipsum deleniti similique amet!
+                    Dolorem aliquid similique excepturi nobis! Alias nostrum ipsa voluptatem ullam quidem quia in dolorum aut nihil consequatur, asperiores veritatis aliquid iusto officiis expedita esse quis consectetur ipsum rerum officia accusantium!
+                    Aspernatur, harum. Enim dolorem numquam ad tenetur suscipit fuga libero! Consectetur totam aliquid doloribus quibusdam nam laudantium possimus amet animi quasi iure, recusandae exercitationem, numquam assumenda ipsam aperiam tempore alias.
+                    At, ullam laudantium! Numquam sequi, ducimus molestias quaerat voluptas, optio eius ratione repellendus necessitatibus itaque natus exercitationem ut odio excepturi perspiciatis accusantium ea cupiditate aut incidunt corrupti dolorum sunt perferendis!</p>
+                </div>
+                <div class="col-xl-3 col-lg-12 text-center">
+                    <img class="img-fluid boot-img" src="img/bootstrap.png" alt="bootstrap">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="response">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">Lorem ipsum dolor sit.</h2>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <img class="img-fluid response-img" src="img/20.jpg" alt="random-guy">
+                    <h4 class="text-center mb-3 mt-3">Name Surname</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor possimus architecto, autem veniam aliquid laudantium quos sunt delectus illum totam iure reiciendis perferendis, neque doloremque hic molestias ipsum beatae eum.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius ea officiis perferendis rem, veniam voluptates fuga inventore consectetur dolores sunt natus, quam facere dolore accusamus ex ducimus illo! At, accusamus.
+                    Recusandae cumque deserunt id repudiandae voluptatem vero culpa ea obcaecati veritatis aliquam aspernatur atque nisi cum beatae incidunt neque nesciunt excepturi dolor corporis, ipsum illo ut vitae, odio perspiciatis! Molestias!</p>
+                    <div class="line bg2"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <img class="img-fluid response-img" src="img/Screen_Shot_2019-09-22_at_10.50.07_AM.png" alt="random-guy">
+                    <h4 class="text-center mb-3">Name Surname</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor possimus architecto, autem veniam aliquid
+                        laudantium quos sunt delectus illum totam iure reiciendis perferendis, neque doloremque hic molestias ipsum
+                        beatae eum.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius ea officiis perferendis rem, veniam voluptates
+                        fuga inventore consectetur accusamus ex ducimus illo! At, accusamus.
+                        Recusandae cumque deserunt id repudiandae voluptatem vero culpa ea obcaecati veritatis aliquam aspernatur atque
+                        nisi cum beatae incidunt neque nesciunt excepturi dolor corporis, ipsum illo ut vitae, odio perspiciatis!
+                        Molestias!</p>
+                        <div class="line bg2"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <img class="img-fluid response-img" src="img/b0e2f54d141a70986beac46962394651.jpg" alt="random-guy">
+                    <h4 class="text-center mb-3 mt-3">Name Surname</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor possimus architecto, autem veniam aliquid
+                        laudantium quos sunt delectus illum totam iure reiciendis perferendis, neque doloremque hic molestias ipsum
+                        beatae eum.</p>
+                    <p>Lorem ipsum dolor.
+                        Recusandae cumque deserunt id repudiandae voluptatem vero culpa ea obcaecati veritatis aliquam aspernatur atque
+                        nisi cum beatae incidunt neque nesciunt excepturi dolor corporis, ipsum illo ut vitae, odio perspiciatis!
+                        Molestias!</p>
+                        <div class="line bg2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-youtube-play"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-github-circled"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-mail-alt"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-twitter"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-paper-plane"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-facebook"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-outline-light custom-rounded"><i class="icon-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You know this is gonna be happend</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed//dQw4w9WgXcQ'
+                            frameborder='0' allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
